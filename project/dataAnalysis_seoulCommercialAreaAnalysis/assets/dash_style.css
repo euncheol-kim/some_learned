@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Monoton&family=Nanum+Myeongjo:wght@800&family=Praise&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#super-sheet{
+    /* border: 5px solid red; */
+    width: 100%;
+    height: 100vh;
+
+    background-color: #E9EFF5;
+}
+#main-title {
+    /* border: 5px solid violet;/// */
+    font-family: 'Black Han Sans', sans-serif;
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    top: 50%;
+    left: 50%;
+}
+#contents-area{
+    /* border: 5px solid blue; */
+
+    display: flex;
+    width: 100%;
+    height: 55%;
+}
+#upper-contents {
+    display: flex;
+
+    width: 100%;
+    height: 100%;
+}
+#upper-contents-left{
+    /* border: 5px solid black;   */
+
+    width: 30%;
+    height: 100%;
+}
+#upper-contents-left .upper-left-first-Graph{
+    /* border: 1px solid coral; */
+
+    width: 100%;
+    height: 50%;
+}
+#upper-contents-left .upper-left-second-Graph{
+    /* border: 1px solid coral; */
+    
+    width: 100%;
+    height: 50%;
+}
+#upper-contents-mid{
+    /* border: 5px solid gray;   */
+
+    width: 70%;
+    height: 100%;
+}
+#upper-contents-mid .mid-trend{
+    /* border: 5px solid gray;   */
+
+    display: flex;
+    height: 20%;
+    width: 100%;
+}
+#upper-mid-trend {
+    height: 20%;
+}
+.upper-mid-trend .trend-box{
+    /* border: 5px solid gray;   */
+
+    height: 20%;
+    width: 100%;
+}
+#upper-contents-mid .upper-mid-map{
+    /* border: 5px solid gray;   */
+
+    height: 80%;
+    width: 100%;
+}
+#upper-contents-right{
+    /* border: 5px solid black;   */
+
+    width: 30%;
+    height: 100%;
+}
+#upper-contents-right .upper-right-sub-title{
+    /* border: 5px solid gray;   */
+
+    font-family: 'Black Han Sans', sans-serif;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    top: 50%;
+    left: 50%;
+
+}
+#upper-contents-right .upper-right-table{
+    /* border: 5px solid gray;   */
+
+    width: 100%;
+    height: 100%;
+}
+.upper-right-flex{
+    display: flex;
+    height: 40%;
+}
+#lower-contents{
+    display: flex;
+    width: 100%;
+    height: 35%;
+}
+#lower-contents .lower-contents-left{
+    /* border:5px solid darkmagenta; */
+    width: 50%;
+    height: 100%;
+}
+#lower-contents .lower-contents-right{
+    /* border:5px solid darkmagenta; */
+    width: 50%;    
+    height: 100%;
+}
+.trend-box{
+    /* border: 5px solid gray;   */
+
+    width: 33.33%;
+    height: 100%;
+}
